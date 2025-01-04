@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascanss</title>
+    <link rel="stylesheet" href="profile-style.css">
+    <meta content="ascanss - Türkçe Manga Oku" property="og:title">
+    <meta content="Reklam olmadan ücretsiz manga okumak için ascanss'i kullanabilirsiniz." name="og:description">
+    <meta content="Reklam olmadan ücretsiz manga okumak için ascanss'i kullanabilirsiniz." name="description">
+    <meta content="ascanss, türkçe, oku, kaliteli, online, kota dostu, webtoon, manhwa, manga, anime" name="keywords">
+</head>
+<body>
+    <div class="header" id="profile-button-parent">
+        <nav class="fathernav">
+            <a href="index.html" class="logo">ascanss</a>
+            <nav class="navbar">
+                <a href="index.html">Anasayfa</a>
+                <a href="contact.html">İletişim</a>
+                <a href="series.html">Seriler</a>
+            </nav>            
+        </nav>
+    </div>
+
+
+    <div class="base-babba">
+        <div class="base" id="yeni-bölümler">
+            <div style="margin: 0 auto;">
+                <h1 class="base-title" id="base-title"></h1>
+            </div>
+            
+            <div class="base-child">
+                <div class="seri" id="user-pfp">
+                    <img id="profile-img" src="1.png">
+                    <p class="seri-ch" id="change-pfp" onclick="document.getElementById(`change-pfp-div`).style.display = `flex`">Profil Resmini Değiştir</p>
+                </div>
+                <div class="seri" id="user-details">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="base" id="popüler-seriler">
+            <div style="margin: 0 auto;">
+                <h1 class="base-title">İzlenen Animeler</h1>
+            </div>
+            
+            <div class="base-child">
+                <div class="seri">
+                    <img class="seri-img" src="1.png" onclick="location.href='title.html?tags=code-geass'">
+                    <p class="seri-ch">Code Geass</p>
+                </div>
+                <div class="seri">
+                    <img class="seri-img" src="1.png" onclick="location.href='chapter.html?tags=one-piece'">
+                    <p class="seri-ch">One Piece</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="base">
+            <span id="log-out">
+                <p>Çıkış Yap</p>
+            </span>
+        </div>
+
+        
+    </div>
+
+    <div class="" id="change-pfp-div">
+        <div id="change-pfp-kapat" onclick="document.getElementById(`change-pfp-div`).style.display = `none`">X</div>   
+        <img id="change-pfp-picture" src="1.png">
+                 
+        <input type="file" id="fileInput" />
+        <button id="readFileButton">Dosyayı Oku</button>
+        <pre id="fileContent"></pre>     
+    </div>
+
+    <script type="module" src="datas.js"></script>
+    <script type="module" src="profile-script.js"></script>
+    <script type="text/javascript" src="search-script.js"></script>
+
+
+</body>
+</html>
