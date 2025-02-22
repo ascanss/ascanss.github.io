@@ -54,16 +54,12 @@ body{
 
 }
 
+.header{
+    display: none;
+}
+
 .base{
-    min-width: 90vw;
-    margin-right: 5vw;
-    margin-left: 5vw;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    background-color: rgb(15, 15, 15, 1);
-    padding: 1vw;
-    padding-top: 2vw;
+    display: none;
 }
 
 .base-child{
