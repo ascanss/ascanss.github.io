@@ -67,13 +67,8 @@ body{
 }
 
 .base-child{
-    width: 88vw;
-    display: flex;
-    flex-direction: row;
-    align-self: start;
-    padding: 1vw;
-    overflow-x: auto;
-    justify-content: start;
+    display: none;
+    
 
 }
 
@@ -256,49 +251,6 @@ body{
     text-decoration: none;
 
     margin-left: 1.5vw;
-}
-
-.navbar{
-    display: flex;
-    flex-direction: column;
-    padding: 1vw;
-    justify-content: space-between;
-
-    align-items: center;
-}
-
-.navbar a{
-    margin-top: 1vw;
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.25vw;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-}
-
-.navbar a::before{
-    content: '';
-    position: absolute;
-    top: 0%;
-    left: 100%;
-    width: 2px;
-    height: 0;
-    transition: .7s;
-    background: #fff;
-
-    transform-style: ease-in;
-}
-
-.navbar a:hover::before{
-    height: 100%;
-}
-
-#profile-button{
-    width: 5vw;
-    height: 5vw;
-
-    border-radius: 5000px;
 }
 
 .seri-ch{
